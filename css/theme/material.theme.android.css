@@ -349,30 +349,30 @@
    }
 
 
- .android-wear-section {
+ .wear-banner-section {
    position: relative;
-   background: url('images/wear.png') center top no-repeat;
+   background: url('../../images/examples/stock_images_04.svg') center center no-repeat;
    background-size: cover;
-   height: 800px;
+   height: 200px;
  }
 
- .android-wear-band {
+ .wear-banner-band {
    position: absolute;
    bottom: 0;
    width: 100%;
    text-align: center;
-   background-color: #37474f;
+   background-color: var(--theme-color-bg-half-rgba);
  }
 
- .android-wear-band-text {
+ .wear-banner-band-text {
    max-width: 800px;
    margin-left: 25%;
-   padding: 24px;
+   padding: 0px;
    text-align: left;
-   color: white;
+   color: var(--theme-color-hex);
  }
 
-   .android-wear-band-text p {
+   .wear-banner-band-text p {
      padding-top: 8px;
    }
 

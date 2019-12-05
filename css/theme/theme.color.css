@@ -9,7 +9,29 @@
 /* Theme main hex */
 
 :root {
-  --theme-color-hex:#F26C4F;
-  --theme-color-rgb:rgb(242,108,79);
-  --theme-color-rgba:rgba(242,108,79,1);
+  --theme-color-hex:#9e9e9e;
+  --theme-color-rgb:rgb(158, 158, 158);
+  --theme-color-rgba:rgba(158, 158, 158,1);
+  --theme-color-bg-hex:#FFFFFF;
+  --theme-color-bg-half-rgba:rgba(158, 158, 158,.75);
+  --theme-constant-dark:#363636;
+  --theme-constant-light:#FFFFFF;
+}
+@media (prefers-color-scheme: dark){
+  :root {
+    --theme-color-hex:#FFFFFF;
+    --theme-color-rgb:rgb(255,255,255);
+    --theme-color-rgba:rgba(255,255,255,1);
+    --theme-color-bg-hex:#363636;
+    --theme-color-bg-half-rgba:rgba(158, 158, 158,.75);
+  }
+}
+@media (prefers-color-scheme: light){
+  :root {
+    --theme-color-hex:#363636;
+    --theme-color-rgb:rgb(54, 54, 54);
+    --theme-color-rgba:rgba(54, 54, 54,1);
+    --theme-color-bg-hex:#FFFFFF;
+    --theme-color-bg-half-rgba:rgba(255, 255, 255,.75);
+  }
 }
